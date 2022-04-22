@@ -9,7 +9,8 @@ $stmt = $connect->prepare($sql);
 $stmt->execute();
 $result = $stmt->fetchAll();
 ?>
-<a href="insert.php">insert</a>
+<a href="insert.php">Insert</a>
+<a href="index.php">Uitloggen</a>
 <table>
     <tr>
 </tr>
@@ -17,7 +18,7 @@ $result = $stmt->fetchAll();
     <tr>
     <td><?php echo $re["naam"];?></td>
 <td><?php echo $re["prijs"];?></td>
-<td><a href="edit.php?id=<?php echo $re["ID"];?>">Update</a></td>
+<td><a href="edit.php?id=<?php echo $re["ID"];?>">Edit</a></td>
 <td><a href="delete.php?id=<?php echo $re["ID"];?>">Delete</a></td>
 </td>
 </tr>
