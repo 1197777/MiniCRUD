@@ -20,8 +20,17 @@ include_once 'nav.php';
 <div class="we">
   <h1>Over Ons</h1>
   <h4>FoodCompanyNL is een italiaanse pizzeria. We zijn gestart in Italë en ondertussen hebben we vier vestigingen. Twee in Nederland en twee in Italië.</h4>
-
+  <h4> ← Dit is onze eerste verstiging in Nederland</h4>
+  <h2>Openingstijden</h2>
+<h3>Maandag: Gesloten</h3>
+<h3>Dinsdag:	14:00 - 22:30</h3>
+<h3>Woensdag:	14:00 - 22:30</h3>
+<h3>Donderdag:	14:00 - 22:30</h3>
+<h3>Vrijdag:	13:00 - 23:30</h3>
+<h3>Zaterdag:	12:00 - 23:30</h3>
+<h3>Zondag:	12:00 - 23:30</h3>
 </div>
+
 <div class="footer3">
 <div class="col-1">
     <h3>Gebruikbare Links</h3>
