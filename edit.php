@@ -12,7 +12,8 @@
         $stmt->bindParam(':prijs', $_POST['prijs']);
         $stmt->bindParam(':id', $_GET['id']);
         $stmt->execute();
-
+        header("Location: admin.php");
+        
         $stmt = $connect->prepare("SELECT * FROM menu where id = :id ");
         $stmt->execute(['id' => $_GET['id']]);
         $data = $stmt->fetch();
