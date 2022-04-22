@@ -1,0 +1,525 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(../img/pizza2.png) no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 4%;
+  background: rgba(0, 0, 0, 0);
+}
+.logo {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1.5px;
+  position: relative;
+  margin-bottom: -15px;
+}
+
+header li {
+  display: inline-block;
+  list-style: none;
+  padding: 30px 30px;
+}
+.wd{
+  width: 450px;
+  height: 640px;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0.9;
+  padding: 55px;
+}
+.wd h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100px;
+  color: #fff;
+}
+.wd h4{
+  text-align: justify;
+  color: darkgray;
+  font-weight: normal;
+  margin-top: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+  
+}
+.wd h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #fff;
+  margin-top: 90px;
+}
+.opt button{
+  width: auto;
+  font-size: 15px;
+  background-color: #000;
+  border-color: #fff;
+  border-radius: 1%;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 75px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+
+}
+.opt button:hover{
+  background-color: #555;
+}
+li a::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+a:hover::after {
+  width: 100%;
+}
+a,
+button {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+}
+button {
+  background-color: rgba(0,0,0,0.7);
+  border: 1px solid #236ccb;
+  border-radius: 50px;
+  padding: 9px 110px;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: #236ccb;
+  transition: all 0.4s ease 0s;
+}
+.account-page {
+  padding: 50px 0;
+  background: radial-gradient(#fff, #ffd6d6);
+}
+.form-container {
+  background: rgba(0,0,0,0.7);
+  width: 300px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+  margin-top: 100px;
+  box-shadow: 0 0 20px Opx rgba(0,0,0,0.1);
+}
+.form-container span {
+  font-size: 21px;
+  font-weight: bold;
+  padding: 0 10px;
+  color: #fff;
+  cursor: pointer;
+  width: 100px;
+  display: inline-block;
+  margin-top: 25px;
+}
+.form-container input[type="text"], input[type="password"]{
+  color: #fff;
+}
+.form-btn {
+display: inline-block;
+}
+
+.form-btn button{
+  background-color: rgba(0,0,0,0.7);
+  border: 2px solid #236ccb;
+  border-radius: 50px;
+  padding: 9px 25px;
+}
+.form-container form {
+max-width: 300px;
+padding: 0 20px;
+position: absolute;
+top: 130px;
+transition: transform 1s;
+}
+form input {
+width: 100%;
+height: 30px;
+margin: 10px 0;
+padding: 0 10px;
+border: 1px solid rgba(0,0,0,0.5);
+background-color: rgba(0,0,0,0.5);
+}
+form .btn {
+width: 100%;
+border: none;
+cursor: pointer;
+margin: 10px 0;
+}
+form .btn:focus {
+outline: none;
+}
+.schuif li a{
+  margin-left: auto;
+}
+.pizzalogo{
+  font-size: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  left: 150px;
+  top: -35px;
+  width: 240px;
+}
+.menukaart{
+  width: 1518px;
+  height: 1200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0.9;
+  padding: 55px;
+  margin-top: -20px;
+}
+.container-box{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  right: 60px;
+  width: 1579px;
+  height: 600px;
+  margin-top: -410px;
+}
+.col-4{
+  width: 1600px;
+  height: 600px;
+  background-color: #000;
+}
+.col-5{
+  width: 500px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: 520px;
+  margin-top: 50px;
+}
+.footer{
+  margin-top: 138px;
+  width: 100%;
+  height: 340px;
+  padding: 100px 15%;
+  background: #333;
+  color: #efefef;
+  display: flex;
+}
+.footer div{
+  text-align: center;
+}
+.col-2{
+  flex-grow: 2;
+}
+.footer div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.col-1 a{
+  display: block;
+  text-decoration: none;
+  color: #d5cece;
+  margin-bottom: 10px;
+}
+.footer form input{
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+.footer button{
+  width: auto;
+  font-size: 17px;
+  background-color: #333;
+  border-color: #fff;
+  border-radius: -5%;
+  padding: 10px;
+  margin-top: 1px;
+  margin-left: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+.footer button:hover{
+  background-color: #555;
+}
+.footer a:hover{
+  color: #fff;
+}
+.footer3{
+  margin-top: -400px;
+  width: 100%;
+  height: 320px;
+  padding: 100px 15%;
+  background: #333;
+  color: #efefef;
+  display: flex;
+}
+.footer3 div{
+  text-align: center;
+}
+.col-2{
+  flex-grow: 2;
+}
+.footer3 div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.footer h3{
+  font-size: 20px;
+}
+.col-1 a{
+  display: block;
+  text-decoration: none;
+  color: #a5a1a1;
+  margin-bottom: 10px;
+}
+.footer3 form input{
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+.footer3 button{
+  width: auto;
+  font-size: 17px;
+  background-color: #333;
+  border-color: #fff;
+  border-radius: -5%;
+  padding: 10px;
+  margin-top: 1px;
+  margin-left: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+.footer3 button:hover{
+  background-color: #555;
+}
+.footer3 a:hover{
+  color: #fff;
+}
+.col-2 a {
+  font-size: 40px;
+}
+.we{
+  position: relative;
+  bottom: 480px;
+  width: 450px;
+  height: 720px;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0.9;
+  padding: 55px;
+  margin-left: auto;
+}
+.we h1{
+text-align: center;
+text-transform: uppercase;
+font-weight: 100px;
+font-size: 30px;
+color: #fff;
+}
+.we h4{
+  text-align: justify;
+  color: darkgray;
+  font-weight: normal;
+  margin-top: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.wr{
+  position: relative;
+  top: 150px;
+  margin-left: 40px;
+}
+.we h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #fff;
+  margin-top: 30px;
+}
+.we h3{
+  text-align: center;
+  color: darkgray;
+  font-weight: normal;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 26px;
+  font-size: 15px;
+}
+.contact{
+  width: 1518px;
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0.9;
+  padding: 55px;
+  margin-top: -20px;
+}
+.contact h1{
+  text-align: center;
+  color: #fff;
+}
+.border{
+  width: 100px;
+  height: 3px;
+  background: #236ccb;
+  margin: 40px auto;
+}
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 13px;
+  overflow: hidden;
+}
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #fff;
+  padding: 20px 40px
+  ;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #236ccb;
+}
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn:focus{
+  float: right;
+  border: 0;
+  background: #236ccb;
+  color: #fff;
+  padding: 15px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form input{
+  width: 100%;
+  height: 35px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 1px solid #236ccb;
+  background-color: rgba(0,0,0,0.9);
+}
+.contact-form input[type="text"], input[type="email"]{
+  color: #fff;
+}
+.contact-form-textarea{
+  color: rgba(0,0,0,0.9);
+}
+.contact-form button {
+  background-color: rgba(0,0,0,0.7);
+  border: 1px solid #236ccb;
+  border-radius: 50px;
+  padding: 10px 25px;
+}
+.contact-form button:hover {
+  background-color: #236ccb;
+  transition: all 0.4s ease 0s;
+}
+.contact-form .contact-form-textarea{
+  background-color: rgba(0,0,0,0.9);
+  color: #fff;
+  border: 1px solid #236ccb;
+  border-radius: 60px;
+  padding: 10px 40px;
+}
+.contact-form .contact-form-textarea input[type="text"]{
+  color: #fff;
+}
+.footer4{
+  margin-top: 400px;
+  width: 100%;
+  height: 340px;
+  padding: 100px 15%;
+  background: #333;
+  color: #efefef;
+  display: flex;
+}
+.footer4 div{
+  text-align: center;
+}
+.col-2{
+  flex-grow: 2;
+}
+.footer4 div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.footer4 h3{
+  font-size: 20px;
+}
+.col-1 a{
+  display: block;
+  text-decoration: none;
+  color: #a5a1a1;
+  margin-bottom: 10px;
+}
+.footer4 form input{
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+.footer4 button{
+  width: auto;
+  font-size: 17px;
+  background-color: #333;
+  border-color: #fff;
+  border-radius: -5%;
+  padding: 10px;
+  margin-top: 1px;
+  margin-left: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+.footer4 button:hover{
+  background-color: #555;
+}
+.footer4 a:hover{
+  color: #fff;
+}
+.col-2 a {
+  font-size: 40px;
+}
