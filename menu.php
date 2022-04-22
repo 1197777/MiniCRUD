@@ -29,19 +29,41 @@
             </a></li>
             <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
             <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-            <li><a href="bestel.php">
-                <ion-icon name="bag-handle-outline"></ion-icon>
-            </a></li>
         </div>
     </header>
-    <div class="menukaart">
-        </div>
-        <div class="container-box">
-            <div class="col-4">
-                
-                </div>
-            </div>
+     <div class="menukaart">
+     <h1>Menukaart</h1>
+    
+      <h3>Pizza's</h3>
+      <h2 class ="menu-group-heading"></h2>
+        
+        <h4>Pizza Margherita 7,50</h4>
+        <h4>Pizza Calzone 8,00</h4>
+        <h4>Pizza Mozarella 8,50</h4>
+        <h4>Pizza Funghi 8,00</h4>
+        <h4>Pizza Tonno 8,50</h4>
+        <h4>Pizza Pepperoni 9,00</h4>
+        <h4>Pizza Quattro formaggi 8,75</h4>
 
+       </div>
+       <div class="footer5">
+  <div class="col-1">
+    <h3>Gebruikbare Links</h3>
+    <h3>↓</h3>
+     <a href="menu.php">Menu</a>
+     <a href="overons.php">Overons</a>
+  </div>
+  <div class="col-2">
+    <h3>FoodCompanyNL</h3>
+    <a href=""><ion-icon name="pizza-outline"></ion-icon></a>
+
+  </div>
+  <div class="col-3">
+  <h3>Neem Contact op met ons</h3>
+    <h3>↓</h3>
+    <a href="contact.php">
+<button>Contact</button>
+</a>
 </body>
 
 </html>
